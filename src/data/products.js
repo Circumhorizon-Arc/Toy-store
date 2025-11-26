@@ -1,0 +1,126 @@
+export const products = [
+    {
+        id: 1,
+        name: "Cuddly Bear",
+        category: "Soft Toys",
+        price: 29.99,
+        rating: 4.8,
+        reviews: 120,
+        image: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&q=80",
+        description: "Super soft and cuddly teddy bear, perfect for hugs.",
+        ageGroup: "0-5 years",
+        isNew: true,
+        isBestSeller: true
+    },
+    {
+        id: 2,
+        name: "Robot Rex",
+        category: "Action Figures",
+        price: 45.00,
+        rating: 4.5,
+        reviews: 85,
+        image: "/images/Robot Rex.jpg",
+        description: "Interactive robot dinosaur with lights and sounds.",
+        ageGroup: "5-10 years",
+        isNew: false,
+        isBestSeller: true
+    },
+    {
+        id: 3,
+        name: "Wooden Building Blocks",
+        category: "Educational",
+        price: 35.50,
+        rating: 4.9,
+        reviews: 200,
+        image: "/images/Wooden Building Blocks.webp",
+        description: "Classic wooden blocks to spark creativity and motor skills.",
+        ageGroup: "2-8 years",
+        isNew: false,
+        isBestSeller: false
+    },
+    {
+        id: 4,
+        name: "Space Explorer Lego Set",
+        category: "Educational",
+        price: 89.99,
+        rating: 4.7,
+        reviews: 50,
+        image: "https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?w=800&q=80",
+        description: "Build your own space station with this detailed set.",
+        ageGroup: "8+ years",
+        isNew: true,
+        isBestSeller: false
+    },
+    {
+        id: 5,
+        name: "Rainbow Unicorn",
+        category: "Soft Toys",
+        price: 24.99,
+        rating: 4.6,
+        reviews: 95,
+        image: "/images/Rainbow Unicorn.webp",
+        description: "Magical plush unicorn with rainbow mane.",
+        ageGroup: "3-8 years",
+        isNew: false,
+        isBestSeller: true
+    },
+    {
+        id: 6,
+        name: "Remote Control Car",
+        category: "Action Figures",
+        price: 55.00,
+        rating: 4.4,
+        reviews: 60,
+        image: "https://images.unsplash.com/photo-1594787318286-3d835c1d207f?w=800&q=80",
+        description: "High speed RC car for outdoor racing.",
+        ageGroup: "6+ years",
+        isNew: true,
+        isBestSeller: false
+    },
+    {
+        id: 7,
+        name: "Soft Rattle Set",
+        category: "Baby Toys",
+        price: 15.99,
+        rating: 4.8,
+        reviews: 45,
+        image: "/images/Soft Rattle Set.webp",
+        description: "Set of 4 soft rattles with different sounds and textures.",
+        ageGroup: "0-12 months",
+        isNew: true,
+        isBestSeller: false
+    },
+    {
+        id: 8,
+        name: "Colorful Stacking Rings",
+        category: "Baby Toys",
+        price: 12.50,
+        rating: 4.9,
+        reviews: 150,
+        image: "/images/Colourful Staking Rings.jpg",
+        description: "Classic stacking rings to help develop fine motor skills.",
+        ageGroup: "6-18 months",
+        isNew: false,
+        isBestSeller: true
+    },
+    {
+        id: 9,
+        name: "Musical Activity Table",
+        category: "Baby Toys",
+        price: 49.99,
+        rating: 4.7,
+        reviews: 80,
+        image: "/images/Musical Activity Table.jpg",
+        description: "Interactive table with music, lights, and learning activities.",
+        ageGroup: "1-3 years",
+        isNew: true,
+        isBestSeller: false
+    }
+];
+
+export const categories = [
+    { id: 1, name: "Soft Toys", image: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&q=80", color: "bg-pink-100" },
+    { id: 2, name: "Action Figures", image: "https://images.unsplash.com/photo-1566576912906-25433db570c8?w=800&q=80", color: "bg-blue-100" },
+    { id: 3, name: "Educational", image: "https://images.unsplash.com/photo-1587654780291-39c940483713?w=800&q=80", color: "bg-green-100" },
+    { id: 4, name: "Baby Toys", image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80", color: "bg-yellow-100" },
+];

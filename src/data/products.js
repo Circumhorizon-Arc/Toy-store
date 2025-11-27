@@ -19,7 +19,7 @@ export const products = [
         price: 45.00,
         rating: 4.5,
         reviews: 85,
-        image: "/images/Robot Rex.jpg",
+        image: "/images/robot-rex.jpg",
         description: "Interactive robot dinosaur with lights and sounds.",
         ageGroup: "5-10 years",
         isNew: false,
@@ -97,7 +97,7 @@ export const products = [
         price: 12.50,
         rating: 4.9,
         reviews: 150,
-        image: "/images/Colourful Staking Rings.jpg",
+        image: "/images/Colourful Staking Rings.webp",
         description: "Classic stacking rings to help develop fine motor skills.",
         ageGroup: "6-18 months",
         isNew: false,
@@ -120,7 +120,7 @@ export const products = [
 
 export const categories = [
     { id: 1, name: "Soft Toys", image: "https://images.unsplash.com/photo-1559454403-b8fb88521f11?w=800&q=80", color: "bg-pink-100" },
-    { id: 2, name: "Action Figures", image: "https://images.unsplash.com/photo-1566576912906-25433db570c8?w=800&q=80", color: "bg-blue-100" },
-    { id: 3, name: "Educational", image: "https://images.unsplash.com/photo-1587654780291-39c940483713?w=800&q=80", color: "bg-green-100" },
-    { id: 4, name: "Baby Toys", image: "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80", color: "bg-yellow-100" },
+    { id: 2, name: "Action Figures", image: "/images/robot-rex.jpg", color: "bg-blue-100" },
+    { id: 3, name: "Educational", image: "/images/Wooden Building Blocks.webp", color: "bg-green-100" },
+    { id: 4, name: "Baby Toys", image: "/images/Soft Rattle Set.webp", color: "bg-yellow-100" },
 ];
